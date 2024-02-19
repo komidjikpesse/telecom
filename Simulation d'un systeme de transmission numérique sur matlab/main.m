@@ -1,5 +1,3 @@
-
-
 parameters
 % generate data and send it
 sender
