@@ -1,5 +1,3 @@
-
-
 % BER curves
 % PAM-2 best case
 t = linspace(0, 10, 1e3);
