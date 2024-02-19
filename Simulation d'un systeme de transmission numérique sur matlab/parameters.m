@@ -1,5 +1,3 @@
-
-
 codesymbol = @(x)x.*2-1;
 
 % System
