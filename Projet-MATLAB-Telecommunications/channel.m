@@ -1,5 +1,3 @@
-
-
 % gaussian noise
 noise_1 = randn([numel(data) 1]);
 [bf,af] = butter(1, 0.99);
