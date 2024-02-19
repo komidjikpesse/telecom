@@ -60,7 +60,7 @@ function txParams = txConfig()
     ULTx.zcSeq = zeros(ULTx.zcLen, txParams.numUsers);
     
     for iter_user = 1: txParams.numUsers
-        ULTx.zcSeq(:, iter_user) = lteZadoffChuSeq(ULTx.zcRoots(iter_user), ULTx.zcLen);
+        ULTx.zcSeq(:, iter_user) = zadoffChuSeq(ULTx.zcRoots(iter_user), ULTx.zcLen);
     end
  
     txParams.ULTx = ULTx;
