@@ -8,7 +8,7 @@ cp = N / 8;
 SNRdb = 5;
 SNR = 10 ^ (SNRdb / 10);
 
-seq1 = lteZadoffChuSeq(3, (N - 18) / 2);
+seq1 = zadoffChuSeq(3, (N - 18) / 2);
 X1 = [zeros(6, 1); seq1; zeros(6, 1); seq1; zeros(6, 1)];
 x1 = ifft(X1, N);
 x1_cp = [x1(end - cp + 1: end); x1];
