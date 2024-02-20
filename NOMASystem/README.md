@@ -1,4 +1,4 @@
-**README**
+NOMA (Non-Orthogonal Multiple Access) est une technique de multiple access qui permet à plusieurs utilisateurs de partager le même spectre de fréquences en utilisant des ressources non orthogonales. Dans le contexte de ce code, l'allocation de puissance différentiée aux utilisateurs peut être considérée comme une forme de NOMA, où différents utilisateurs ont des niveaux de puissance différents, ce qui leur permet de partager efficacement le même canal de transmission. Les codes fournis simulent le fonctionnement d'un système de communication multi-utilisateurs, où des techniques telles que l'estimation du canal et l'allocation de puissance sont cruciales pour améliorer les performances du système, ce qui est également pertinent dans le contexte de NOMA.
 
 **Objectif** :
 Les codes fournis sont une implémentation MATLAB d'un système de communication multi-utilisateurs utilisant une modulation QAM (Quadrature Amplitude Modulation), un codage convolutif, et des techniques d'allocation de puissance. L'objectif principal est de simuler le processus de transmission et de réception dans un environnement multi-utilisateurs, en tenant compte des effets du canal et du bruit.
@@ -21,7 +21,7 @@ Les codes fournis sont une implémentation MATLAB d'un système de communication
 
 6. **Réception et décodage** :
    - Les données reçues sont décodées à l'aide du décodeur de canal convolutionnel et les erreurs de transmission sont calculées.
-
+---
 **Agencement des codes** :
 Les différents scripts sont organisés de manière à refléter le flux de données dans un système de communication typique :
 - **Transmitter** (Émetteur) : Génère et traite les données à transmettre.
@@ -30,6 +30,3 @@ Les différents scripts sont organisés de manière à refléter le flux de donn
 - **Channel Decoding** (Décodage de canal) : Décodage des données reçues après la réception.
 - **UplinkTx** et **UplinkRx** : Gèrent respectivement la transmission et la réception dans la liaison montante, en particulier l'estimation du canal.
 - **MainSystem** : Le script principal qui orchestre l'ensemble du processus de transmission et de réception, en utilisant les fonctions définies précédemment.
-
-**Parallèle avec NOMA** :
-NOMA (Non-Orthogonal Multiple Access) est une technique de multiple access qui permet à plusieurs utilisateurs de partager le même spectre de fréquences en utilisant des ressources non orthogonales. Dans le contexte de ce code, l'allocation de puissance différentiée aux utilisateurs peut être considérée comme une forme de NOMA, où différents utilisateurs ont des niveaux de puissance différents, ce qui leur permet de partager efficacement le même canal de transmission. Les codes fournis simulent le fonctionnement d'un système de communication multi-utilisateurs, où des techniques telles que l'estimation du canal et l'allocation de puissance sont cruciales pour améliorer les performances du système, ce qui est également pertinent dans le contexte de NOMA.
